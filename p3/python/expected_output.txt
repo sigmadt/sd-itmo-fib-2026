@@ -1,0 +1,20 @@
+[log] email, попытка 1, кому anna@example.com
+[email] from=shop@example.com to=anna@example.com cc=orders@example.com subject="Заказ 1042" priority=high
+  Заказ 1042 отправлен. Трек-номер RB123456
+  С уважением, магазин
+[log] sms, попытка 1, кому +7 (900) 111-22-30
+[sms-gateway] 503 для 79001112230
+[log] sms, попытка 2, кому +7 (900) 111-22-30
+[sms] 79001112230: Заказ 1042 отправлен
+[group] Склад
+[log] telegram, попытка 1, кому @petrov
+[telegram] @petrov: Собрать заказ 1042 (без звука)
+[group] Ночная смена
+[log] telegram, попытка 1, кому @ivanova
+[telegram] @ivanova: Собрать заказ 1042 (без звука)
+[log] telegram, попытка 1, кому @sidorov
+[telegram] @sidorov: Собрать заказ 1042 (без звука)
+[log] telegram, попытка 1, кому @manager
+[telegram] @manager: Срочно: Заказ 1042 отправлен
+Отдел логистики
+Отправлено сообщений: 6
